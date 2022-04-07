@@ -17,6 +17,10 @@ class MobileBankApiTestV2 {
 
                 .then()
                 .statusCode(200)
-                .contentType(ContentType.JSON);
+                .contentType(ContentType.JSON)
+
+
+        ;
+
     }
 }
